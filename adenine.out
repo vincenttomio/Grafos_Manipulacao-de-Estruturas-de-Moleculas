@@ -1,0 +1,83 @@
+1
+
+Estrutura: {6,8} {6,7} {5,8} {4,10} {4,8} {3,10} {3,7} {2,9} {2,7} {1,9} {1,6} 
+Vertices: (id:10, rotulo:C, grau:2, fronteira:{ (id:8, rotulo:2, peso:615, {4,10}) (id:6, rotulo:1, peso:293, {3,10}) }) (id:9, rotulo:C, grau:2, fronteira:{ (id:4, rotulo:2, peso:615, {2,9}) (id:2, rotulo:1, peso:293, {1,9}) }) (id:8, rotulo:C, grau:3, fronteira:{ (id:11, rotulo:2, peso:614, {6,8}) (id:9, rotulo:1, peso:293, {5,8}) (id:7, rotulo:1, peso:293, {4,8}) }) (id:7, rotulo:C, grau:3, fronteira:{ (id:10, rotulo:1, peso:348, {6,7}) (id:5, rotulo:2, peso:615, {3,7}) (id:3, rotulo:1, peso:293, {2,7}) }) (id:6, rotulo:C, grau:3, fronteira:{ (id:11, rotulo:2, peso:614, {6,8}) (id:10, rotulo:1, peso:348, {6,7}) (id:1, rotulo:1, peso:293, {1,6}) }) (id:5, rotulo:N, grau:1, fronteira:{ (id:9, rotulo:1, peso:293, {5,8}) }) (id:4, rotulo:N, grau:2, fronteira:{ (id:8, rotulo:2, peso:615, {4,10}) (id:7, rotulo:1, peso:293, {4,8}) }) (id:3, rotulo:N, grau:2, fronteira:{ (id:6, rotulo:1, peso:293, {3,10}) (id:5, rotulo:2, peso:615, {3,7}) }) (id:2, rotulo:N, grau:2, fronteira:{ (id:4, rotulo:2, peso:615, {2,9}) (id:3, rotulo:1, peso:293, {2,7}) }) (id:1, rotulo:N, grau:2, fronteira:{ (id:2, rotulo:1, peso:293, {1,9}) (id:1, rotulo:1, peso:293, {1,6}) }) 
+Arestas: (id:11, rotulo:2, peso:614, {6,8}) (id:10, rotulo:1, peso:348, {6,7}) (id:9, rotulo:1, peso:293, {5,8}) (id:8, rotulo:2, peso:615, {4,10}) (id:7, rotulo:1, peso:293, {4,8}) (id:6, rotulo:1, peso:293, {3,10}) (id:5, rotulo:2, peso:615, {3,7}) (id:4, rotulo:2, peso:615, {2,9}) (id:3, rotulo:1, peso:293, {2,7}) (id:2, rotulo:1, peso:293, {1,9}) (id:1, rotulo:1, peso:293, {1,6}) 
+
+===================
+Átomos 5 e 1 da molécula 1, iniciando quebra:
+Ligação removida:
+(id:1, rotulo:1, peso:293, {1,6})
+Ligação removida:
+(id:2, rotulo:1, peso:293, {1,9})
+Molécula 3
+
+Estrutura: 
+Vertices: (id:1, rotulo:N, grau:0, fronteira:{ }) 
+Arestas: 
+
+===================
+Molécula 2
+
+Estrutura: {2,9} {2,7} {6,7} {3,7} {3,10} {4,10} {4,8} {6,8} {5,8} 
+Vertices: (id:9, rotulo:C, grau:1, fronteira:{ (id:4, rotulo:2, peso:615, {2,9}) }) (id:2, rotulo:N, grau:2, fronteira:{ (id:4, rotulo:2, peso:615, {2,9}) (id:3, rotulo:1, peso:293, {2,7}) }) (id:7, rotulo:C, grau:3, fronteira:{ (id:3, rotulo:1, peso:293, {2,7}) (id:10, rotulo:1, peso:348, {6,7}) (id:5, rotulo:2, peso:615, {3,7}) }) (id:3, rotulo:N, grau:2, fronteira:{ (id:5, rotulo:2, peso:615, {3,7}) (id:6, rotulo:1, peso:293, {3,10}) }) (id:10, rotulo:C, grau:2, fronteira:{ (id:6, rotulo:1, peso:293, {3,10}) (id:8, rotulo:2, peso:615, {4,10}) }) (id:4, rotulo:N, grau:2, fronteira:{ (id:8, rotulo:2, peso:615, {4,10}) (id:7, rotulo:1, peso:293, {4,8}) }) (id:6, rotulo:C, grau:2, fronteira:{ (id:10, rotulo:1, peso:348, {6,7}) (id:11, rotulo:2, peso:614, {6,8}) }) (id:8, rotulo:C, grau:3, fronteira:{ (id:7, rotulo:1, peso:293, {4,8}) (id:11, rotulo:2, peso:614, {6,8}) (id:9, rotulo:1, peso:293, {5,8}) }) (id:5, rotulo:N, grau:1, fronteira:{ (id:9, rotulo:1, peso:293, {5,8}) }) 
+Arestas: (id:4, rotulo:2, peso:615, {2,9}) (id:3, rotulo:1, peso:293, {2,7}) (id:10, rotulo:1, peso:348, {6,7}) (id:5, rotulo:2, peso:615, {3,7}) (id:6, rotulo:1, peso:293, {3,10}) (id:8, rotulo:2, peso:615, {4,10}) (id:7, rotulo:1, peso:293, {4,8}) (id:11, rotulo:2, peso:614, {6,8}) (id:9, rotulo:1, peso:293, {5,8}) 
+
+===================
+Átomos 9 e 8 da molécula 2, iniciando quebra:
+Ligação removida:
+(id:3, rotulo:1, peso:293, {2,7})
+Molécula 5
+
+Estrutura: {4,10} {3,10} {3,7} {6,7} {5,8} {6,8} {4,8} 
+Vertices: (id:10, rotulo:C, grau:2, fronteira:{ (id:8, rotulo:2, peso:615, {4,10}) (id:6, rotulo:1, peso:293, {3,10}) }) (id:3, rotulo:N, grau:2, fronteira:{ (id:6, rotulo:1, peso:293, {3,10}) (id:5, rotulo:2, peso:615, {3,7}) }) (id:7, rotulo:C, grau:2, fronteira:{ (id:5, rotulo:2, peso:615, {3,7}) (id:10, rotulo:1, peso:348, {6,7}) }) (id:5, rotulo:N, grau:1, fronteira:{ (id:9, rotulo:1, peso:293, {5,8}) }) (id:6, rotulo:C, grau:2, fronteira:{ (id:10, rotulo:1, peso:348, {6,7}) (id:11, rotulo:2, peso:614, {6,8}) }) (id:4, rotulo:N, grau:2, fronteira:{ (id:8, rotulo:2, peso:615, {4,10}) (id:7, rotulo:1, peso:293, {4,8}) }) (id:8, rotulo:C, grau:3, fronteira:{ (id:9, rotulo:1, peso:293, {5,8}) (id:11, rotulo:2, peso:614, {6,8}) (id:7, rotulo:1, peso:293, {4,8}) }) 
+Arestas: (id:8, rotulo:2, peso:615, {4,10}) (id:6, rotulo:1, peso:293, {3,10}) (id:5, rotulo:2, peso:615, {3,7}) (id:10, rotulo:1, peso:348, {6,7}) (id:9, rotulo:1, peso:293, {5,8}) (id:11, rotulo:2, peso:614, {6,8}) (id:7, rotulo:1, peso:293, {4,8}) 
+
+===================
+Molécula 4
+
+Estrutura: {2,9} 
+Vertices: (id:2, rotulo:N, grau:1, fronteira:{ (id:4, rotulo:2, peso:615, {2,9}) }) (id:9, rotulo:C, grau:1, fronteira:{ (id:4, rotulo:2, peso:615, {2,9}) }) 
+Arestas: (id:4, rotulo:2, peso:615, {2,9}) 
+
+===================
+Molécula 3
+
+Estrutura: 
+Vertices: (id:1, rotulo:N, grau:0, fronteira:{ }) 
+Arestas: 
+
+===================
+Átomos 7 e 10 da molécula 5, iniciando quebra:
+Ligação removida:
+(id:6, rotulo:1, peso:293, {3,10})
+Ligação removida:
+(id:7, rotulo:1, peso:293, {4,8})
+Molécula 7
+
+Estrutura: {4,10} 
+Vertices: (id:4, rotulo:N, grau:1, fronteira:{ (id:8, rotulo:2, peso:615, {4,10}) }) (id:10, rotulo:C, grau:1, fronteira:{ (id:8, rotulo:2, peso:615, {4,10}) }) 
+Arestas: (id:8, rotulo:2, peso:615, {4,10}) 
+
+===================
+Molécula 6
+
+Estrutura: {5,8} {6,8} {6,7} {3,7} 
+Vertices: (id:5, rotulo:N, grau:1, fronteira:{ (id:9, rotulo:1, peso:293, {5,8}) }) (id:8, rotulo:C, grau:2, fronteira:{ (id:9, rotulo:1, peso:293, {5,8}) (id:11, rotulo:2, peso:614, {6,8}) }) (id:6, rotulo:C, grau:2, fronteira:{ (id:11, rotulo:2, peso:614, {6,8}) (id:10, rotulo:1, peso:348, {6,7}) }) (id:3, rotulo:N, grau:1, fronteira:{ (id:5, rotulo:2, peso:615, {3,7}) }) (id:7, rotulo:C, grau:2, fronteira:{ (id:10, rotulo:1, peso:348, {6,7}) (id:5, rotulo:2, peso:615, {3,7}) }) 
+Arestas: (id:9, rotulo:1, peso:293, {5,8}) (id:11, rotulo:2, peso:614, {6,8}) (id:10, rotulo:1, peso:348, {6,7}) (id:5, rotulo:2, peso:615, {3,7}) 
+
+===================
+Molécula 4
+
+Estrutura: {2,9} 
+Vertices: (id:2, rotulo:N, grau:1, fronteira:{ (id:4, rotulo:2, peso:615, {2,9}) }) (id:9, rotulo:C, grau:1, fronteira:{ (id:4, rotulo:2, peso:615, {2,9}) }) 
+Arestas: (id:4, rotulo:2, peso:615, {2,9}) 
+
+===================
+Molécula 3
+
+Estrutura: 
+Vertices: (id:1, rotulo:N, grau:0, fronteira:{ }) 
+Arestas: 
+
+===================
