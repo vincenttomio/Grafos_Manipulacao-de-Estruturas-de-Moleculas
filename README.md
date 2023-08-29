@@ -2,7 +2,7 @@
 
 Este projeto foi realizado em dupla pelos alunos:
 ```
- Vincent Van Santen Von Biveniczko Tomio - GRR20206365
+ Vincent Tomio - GRR20206365
  Yan Oliveira da Costa - GRR20204095
 ```
 Como parte da disciplina de CI1054 - Algoritmos em Grafos e Otimização, o objetivo do trabalho foi desenvolver um programa capaz de manipular estruturas moleculares em arquivos, permitindo ao usuário adicionar uma molécula e cortar as ligações, criando assim uma molécula k-partida, ou k-moléculas. 
